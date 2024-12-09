@@ -253,12 +253,13 @@
             <ShortInteger CStyleName="import_node_index" pascalStyleName="ImportNodeIndex" name="import node index" readOnly="true" />
             <RealPoint3D CStyleName="default_translation" pascalStyleName="DefaultTranslation" name="default translation" readOnly="true" />
             <RealQuaternion CStyleName="default_rotation" pascalStyleName="DefaultRotation" name="default rotation" readOnly="true" />
-            <Explanation name="Old Mistakes Die Hard" description="Be aware that the displayed inverse matrix below is incorrect.&#xA;The inverse scale value should come before the inverse matrix. Currently the first value of the inverse matrix is the inverse scale and the inverse scale is the final value of the inverse position.&#xA;i.e. The actual field order should have been:&#xA;  *inverse scale&#xA;  *inverse forward&#xA;  *inverse left&#xA;  *inverse up&#xA;  *inverse position&#xA;" />
+            <!--This doesn't match H3+ but it is correct!-->
+            <Explanation name="Old Mistakes Die Hard" description="Be aware that the displayed inverse matrix below is correct but Guerilla will display it incorrectly, including in later games!.&#xA;The inverse scale value *should* come before the inverse matrix." />
+            <Real CStyleName="inverse_scale" pascalStyleName="InverseScale" name="inverse scale" readOnly="true" />
             <RealVector3D CStyleName="inverse_forward" pascalStyleName="InverseForward" name="inverse forward" readOnly="true" />
             <RealVector3D CStyleName="inverse_left" pascalStyleName="InverseLeft" name="inverse left" readOnly="true" />
             <RealVector3D CStyleName="inverse_up" pascalStyleName="InverseUp" name="inverse up" readOnly="true" />
             <RealPoint3D CStyleName="inverse_position" pascalStyleName="InversePosition" name="inverse position" readOnly="true" />
-            <Real CStyleName="inverse_scale" pascalStyleName="InverseScale" name="inverse scale" readOnly="true" />
             <Real CStyleName="distance_from_parent" pascalStyleName="DistanceFromParent" name="distance from parent" readOnly="true" />
           </FieldSet>
         </Layout>
