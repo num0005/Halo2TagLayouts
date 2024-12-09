@@ -1766,7 +1766,7 @@
             </WordFlags>
             <ShortBlockIndex CStyleName="area" pascalStyleName="Area" name="area" blockNameSource="true" blockReference="block:areas" />
             <ShortInteger CStyleName="cluster_index" pascalStyleName="ClusterIndex" name="cluster index" readOnly="true" />
-            <Skip sizeOfSource="sizeof(long)" length="4" />
+            <LongInteger CStyleName="surface_index" pascalStyleName="SurfaceIndex" name="surface index" expertOnly="true"/>
             <RealEulerAngles2D CStyleName="normal" pascalStyleName="Normal" name="normal" />
             <Custom name="CUSTOM_SAPIEN_FIRING_POINT_FIELD" tag="cfpf" />
           </FieldSet>
