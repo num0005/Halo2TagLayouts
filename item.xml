@@ -3,7 +3,7 @@
   <Layout regolithID="block:item" internalName="item_block" name="item">
     <FieldSet version="0" sizeofValue="156" sizeofSource="sizeof(struct _item_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ ITEM $$$" />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="item_flags" pascalStyleName="ItemFlags" name="flags">
         <Options regolithID="enum:item_flags" CStyleName="item_flags" pascalStyleName="ItemFlags">
           <Bit name="always maintains z up" CStyleName="always_maintains_z_up_bit" pascalStyleName="AlwaysMaintainsZUpBit" />
           <Bit name="destroyed by explosions" CStyleName="destroyed_by_explosions_bit" pascalStyleName="DestroyedByExplosionsBit" />

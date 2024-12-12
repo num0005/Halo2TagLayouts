@@ -3,7 +3,7 @@
   <Layout regolithID="block:device" internalName="device_block" name="device">
     <FieldSet version="0" sizeofValue="152" sizeofSource="sizeof(struct _device_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ DEVICE $$$" />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="device_flags" pascalStyleName="DeviceFlags" name="flags">
         <Options regolithID="enum:device_flags" CStyleName="device_flags" pascalStyleName="DeviceFlags">
           <Bit name="position loops" CStyleName="position_loops_bit" pascalStyleName="PositionLoopsBit" />
           <Bit name="(unused)" CStyleName="unused1_bit" pascalStyleName="Unused1Bit" />

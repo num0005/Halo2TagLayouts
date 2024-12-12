@@ -2,7 +2,7 @@
 <TagGroup group="weap" parent="item" name="weapon" version="2">
   <Layout regolithID="block:weapon" internalName="weapon_block" name="weapon">
     <FieldSet version="0" sizeofValue="1068" sizeofSource="sizeof(_weapon_definition_v1)" parentVersion="0">
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="weapon_flags" pascalStyleName="WeaponFlags" name="flags">
         <Options regolithID="enum:weapon_flags" CStyleName="weapon_flags" pascalStyleName="WeaponFlags">
           <Bit name="unused0" expertOnly="true" CStyleName="unused0_bit" pascalStyleName="Unused0Bit" />
           <Bit name="unused1" expertOnly="true" CStyleName="unused1_bit" pascalStyleName="Unused1Bit" />
@@ -221,7 +221,7 @@
           <Enum name="rocket launcher" CStyleName="rocket_launcher" pascalStyleName="RocketLauncher" />
         </Options>
       </ShortEnum>
-      <Block CStyleName="predicted_resources" pascalStyleName="PredictedResources" name="predicted resources" maxElementCount="2048">
+      <Block CStyleName="weapon_predicted_resources" pascalStyleName="WeaponPredictedResources" name="predicted resources" maxElementCount="2048">
         <LayoutXRef>block:predicted_resource</LayoutXRef>
       </Block>
       <Block CStyleName="magazines" pascalStyleName="Magazines" name="magazines" maxElementCount="2" maxElementCountSource="MAXIMUM_NUMBER_OF_MAGAZINES_PER_WEAPON">
@@ -309,7 +309,7 @@
     </FieldSet>
     <FieldSet version="1" sizeofValue="1156" sizeofSource="sizeof(_weapon_definition_v2)" parentVersion="0">
       <Explanation name="$$$ WEAPON $$$" description="All weapons should have 'primary trigger' and 'secondary trigger' markers as appropriate.&#xA;Blurred permutations are called '$primary-blur' and '$secondary-blur'." />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="weapon_flags" pascalStyleName="WeaponFlags" name="flags">
         <OptionsXRef>enum:weapon_flags</OptionsXRef>
       </LongFlags>
       <OldStringId />
@@ -344,7 +344,7 @@
       <TagReference CStyleName="detonation" pascalStyleName="Detonation" name="detonation">
         <tag />
       </TagReference>
-      <TagReference CStyleName="detonation_damage_effect" pascalStyleName="DetonationDamageEffect" name="detonation damage effect">
+      <TagReference CStyleName="weapon_detonation_damage_effect" pascalStyleName="WeaponDetonationDamageEffect" name="detonation damage effect">
         <tag>jpt!</tag>
       </TagReference>
       <TagReference CStyleName="player_melee_damage" pascalStyleName="PlayerMeleeDamage" name="player melee damage">
@@ -445,7 +445,7 @@
           </FieldSet>
         </Layout>
       </Struct>
-      <Block CStyleName="predicted_resources" pascalStyleName="PredictedResources" name="predicted resources" maxElementCount="2048">
+      <Block CStyleName="weapon_predicted_resources" pascalStyleName="WeaponPredictedResources" name="predicted resources" maxElementCount="2048">
         <LayoutXRef>block:predicted_resource</LayoutXRef>
       </Block>
       <Block CStyleName="magazines" pascalStyleName="Magazines" name="magazines" maxElementCount="2" maxElementCountSource="MAXIMUM_NUMBER_OF_MAGAZINES_PER_WEAPON">
@@ -844,7 +844,7 @@
     </FieldSet>
     <FieldSet version="2" sizeofValue="1200" sizeofSource="sizeof(_weapon_definition_v3)" parentVersion="0">
       <Explanation name="$$$ WEAPON $$$" description="All weapons should have 'primary trigger' and 'secondary trigger' markers as appropriate.&#xA;Blurred permutations are called '$primary-blur' and '$secondary-blur'." />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="weapon_flags" pascalStyleName="WeaponFlags" name="flags">
         <OptionsXRef>enum:weapon_flags</OptionsXRef>
       </LongFlags>
       <OldStringId />
@@ -880,7 +880,7 @@
       <TagReference CStyleName="detonation" pascalStyleName="Detonation" name="detonation">
         <tag />
       </TagReference>
-      <TagReference CStyleName="detonation_damage_effect" pascalStyleName="DetonationDamageEffect" name="detonation damage effect">
+      <TagReference CStyleName="weapon_detonation_damage_effect" pascalStyleName="WeaponDetonationDamageEffect" name="detonation damage effect">
         <tag>jpt!</tag>
       </TagReference>
       <TagReference CStyleName="player_melee_damage" pascalStyleName="PlayerMeleeDamage" name="player melee damage">
@@ -991,7 +991,7 @@
           </FieldSet>
         </Layout>
       </Struct>
-      <Block CStyleName="predicted_resources" pascalStyleName="PredictedResources" name="predicted resources" maxElementCount="2048">
+      <Block CStyleName="weapon_predicted_resources" pascalStyleName="WeaponPredictedResources" name="predicted resources" maxElementCount="2048">
         <LayoutXRef>block:predicted_resource</LayoutXRef>
       </Block>
       <Block CStyleName="magazines" pascalStyleName="Magazines" name="magazines" maxElementCount="2" maxElementCountSource="MAXIMUM_NUMBER_OF_MAGAZINES_PER_WEAPON">
@@ -1018,7 +1018,7 @@
     </FieldSet>
     <FieldSet version="3" sizeofValue="1128" sizeofSource="sizeof(_weapon_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ WEAPON $$$" description="All weapons should have 'primary trigger' and 'secondary trigger' markers as appropriate.&#xA;Blurred permutations are called '$primary-blur' and '$secondary-blur'." />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="weapon_flags" pascalStyleName="WeaponFlags" name="flags">
         <OptionsXRef>enum:weapon_flags</OptionsXRef>
       </LongFlags>
       <OldStringId />
@@ -1052,7 +1052,7 @@
       <TagReference CStyleName="detonation" pascalStyleName="Detonation" name="detonation">
         <tag />
       </TagReference>
-      <TagReference CStyleName="detonation_damage_effect" pascalStyleName="DetonationDamageEffect" name="detonation damage effect">
+      <TagReference CStyleName="weapon_detonation_damage_effect" pascalStyleName="WeaponDetonationDamageEffect" name="detonation damage effect">
         <tag>jpt!</tag>
       </TagReference>
       <TagReference CStyleName="player_melee_damage" pascalStyleName="PlayerMeleeDamage" name="player melee damage">
@@ -1131,7 +1131,7 @@
       <Struct CStyleName="player_interface" pascalStyleName="PlayerInterface" name="player interface">
         <LayoutXRef>structure:weapon_interface</LayoutXRef>
       </Struct>
-      <Block CStyleName="predicted_resources" pascalStyleName="PredictedResources" name="predicted resources" maxElementCount="2048">
+      <Block CStyleName="weapon_predicted_resources" pascalStyleName="WeaponPredictedResources" name="predicted resources" maxElementCount="2048">
         <LayoutXRef>block:predicted_resource</LayoutXRef>
       </Block>
       <Block CStyleName="magazines" pascalStyleName="Magazines" name="magazines" maxElementCount="2" maxElementCountSource="MAXIMUM_NUMBER_OF_MAGAZINES_PER_WEAPON">

@@ -3,7 +3,7 @@
   <Layout regolithID="block:unit" internalName="unit_block" name="unit">
     <FieldSet version="0" sizeofValue="396" sizeofSource="sizeof(struct _unit_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ UNIT $$$" />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="unit_flags" pascalStyleName="UnitFlags" name="flags">
         <Options regolithID="enum:unit_flags" CStyleName="unit_flags" pascalStyleName="UnitFlags">
           <Bit name="circular aiming" CStyleName="circular_aiming_bit" pascalStyleName="CircularAimingBit" />
           <Bit name="destroyed after dying" CStyleName="destroyed_after_dying_bit" pascalStyleName="DestroyedAfterDyingBit" />

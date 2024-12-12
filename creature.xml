@@ -3,7 +3,7 @@
   <Layout regolithID="block:creature" internalName="creature_block" name="creature">
     <FieldSet version="0" sizeofValue="480" sizeofSource="sizeof(struct _creature_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ CREATURE $$$" />
-      <WordFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <WordFlags CStyleName="creature_flags" pascalStyleName="CreatureFlags" name="flags">
         <Options regolithID="enum:creature_flags" CStyleName="creature_flags" pascalStyleName="CreatureFlags">
           <Bit name="unused" CStyleName="unused0_bit" pascalStyleName="Unused0Bit" />
           <Bit name="infection form" CStyleName="infection_form_bit" pascalStyleName="InfectionFormBit" />

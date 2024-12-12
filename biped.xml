@@ -32,8 +32,8 @@
       <Real CStyleName="pitch_ratio" pascalStyleName="PitchRatio" name="pitch ratio" description="amount that we pitch up/down when moving up or down" />
       <Real CStyleName="max_velocity" pascalStyleName="MaxVelocity" name="max velocity" units="world units per second" description="max velocity when not crouching" />
       <Real CStyleName="max_sidestep_velocity" pascalStyleName="MaxSidestepVelocity" name="max sidestep velocity" units="world units per second" description="max sideways or up/down velocity when not crouching" />
-      <Real CStyleName="acceleration" pascalStyleName="Acceleration" name="acceleration" units="world units per second squared" />
-      <Real CStyleName="deceleration" pascalStyleName="Deceleration" name="deceleration" units="world units per second squared" />
+      <Real CStyleName="flying_acceleration" pascalStyleName="FlyingAcceleration" name="acceleration" units="world units per second squared" />
+      <Real CStyleName="flying_deceleration" pascalStyleName="FlyingDeceleration" name="deceleration" units="world units per second squared" />
       <Angle CStyleName="angular_velocity_maximum" pascalStyleName="AngularVelocityMaximum" name="angular velocity maximum" units="degrees per second" description="turn rate" />
       <Angle CStyleName="angular_acceleration_maximum" pascalStyleName="AngularAccelerationMaximum" name="angular acceleration maximum" units="degrees per second squared" description="turn acceleration rate" />
       <Real CStyleName="crouch_velocity_modifier" pascalStyleName="CrouchVelocityModifier" name="crouch velocity modifier" units="[0,1]" description="how much slower we fly if crouching (zero = same speed)" />
@@ -97,7 +97,7 @@
     <FieldSet version="1" sizeofValue="988" sizeofSource="sizeof(struct _biped_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ BIPED $$$" />
       <Angle CStyleName="moving_turning_speed" pascalStyleName="MovingTurningSpeed" name="moving turning speed" units="degrees per second" />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="biped_flags" pascalStyleName="BipedFlags" name="flags">
         <Options regolithID="enum:biped_flags" CStyleName="biped_flags" pascalStyleName="BipedFlags">
           <Bit name="turns without animating" CStyleName="turns_without_animating_bit" pascalStyleName="TurnsWithoutAnimatingBit" />
           <Bit name="passes through other bipeds" CStyleName="passes_through_other_bipeds_bit" pascalStyleName="PassesThroughOtherBipedsBit" />

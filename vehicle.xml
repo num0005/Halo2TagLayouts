@@ -3,7 +3,7 @@
   <Layout regolithID="block:vehicle" internalName="vehicle_block" name="vehicle">
     <FieldSet version="0" sizeofValue="984" sizeofSource="sizeof(struct _vehicle_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ VEHICLE $$$" />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="vehicle_flags" pascalStyleName="VehicleFlags" name="flags">
         <Options regolithID="enum:vehicle_flags" CStyleName="vehicle_flags" pascalStyleName="VehicleFlags">
           <Bit name="speed wakes physics" CStyleName="speed_wakes_physics_bit" pascalStyleName="SpeedWakesPhysicsBit" />
           <Bit name="turn wakes physics" CStyleName="turn_wakes_physics_bit" pascalStyleName="TurnWakesPhysicsBit" />

@@ -3,7 +3,7 @@
   <Layout regolithID="block:projectile" internalName="projectile_block" name="projectile">
     <FieldSet version="0" sizeofValue="496" sizeofSource="sizeof(_projectile_definition_v1)" parentVersion="0">
       <Explanation name="$$$ PROJECTILE $$$" />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="projectile_flags" pascalStyleName="ProjectileFlags" name="flags">
         <Options regolithID="enum:projectile_flags" CStyleName="projectile_flags" pascalStyleName="ProjectileFlags">
           <Bit name="oriented along velocity" CStyleName="oriented_along_velocity_bit" pascalStyleName="OrientedAlongVelocityBit" />
           <Bit name="AI must use ballistic aiming" CStyleName="ai_must_use_ballistic_aiming_bit" pascalStyleName="AiMustUseBallisticAimingBit" />
@@ -163,7 +163,7 @@
     </FieldSet>
     <FieldSet version="1" sizeofValue="604" sizeofSource="sizeof(_projectile_definition)" parentVersion="0" isLatest="true">
       <Explanation name="$$$ PROJECTILE $$$" />
-      <LongFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <LongFlags CStyleName="projectile_flags" pascalStyleName="ProjectileFlags" name="flags">
         <OptionsXRef>enum:projectile_flags</OptionsXRef>
       </LongFlags>
       <ShortEnum CStyleName="detonation_timer_starts" pascalStyleName="DetonationTimerStarts" name="detonation timer starts">

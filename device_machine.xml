@@ -10,7 +10,7 @@
           <Enum name="gear" CStyleName="gear" pascalStyleName="Gear" />
         </Options>
       </ShortEnum>
-      <WordFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <WordFlags CStyleName="device_machine_flags" pascalStyleName="DeviceMachineFlags" name="flags">
         <Options regolithID="enum:device_machine_flags" CStyleName="device_machine_flags" pascalStyleName="DeviceMachineFlags">
           <Bit name="pathfinding obstacle" CStyleName="pathfinding_obstacle_bit" pascalStyleName="PathfindingObstacleBit" />
           <Bit name="...but not when open" CStyleName="but_not_when_open_bit" pascalStyleName="ButNotWhenOpenBit" />

@@ -10,7 +10,7 @@
           <Enum name="Pathfinding NONE" CStyleName="pathfinding_none" pascalStyleName="PathfindingNone" />
         </Options>
       </ShortEnum>
-      <WordFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <WordFlags CStyleName="scenery_flags" pascalStyleName="SceneryFlags" name="flags">
         <Options regolithID="enum:scenery_flags" CStyleName="scenery_flags" pascalStyleName="SceneryFlags">
           <Bit name="physically simulates" description="stimulates?" CStyleName="physically_simulates_bit" pascalStyleName="PhysicallySimulatesBit" />
         </Options>
@@ -29,7 +29,7 @@
       <ShortEnum CStyleName="pathfinding_policy" pascalStyleName="PathfindingPolicy" name="pathfinding policy">
         <OptionsXRef>enum:scenery_pathfinding_policy_old_v0</OptionsXRef>
       </ShortEnum>
-      <WordFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <WordFlags CStyleName="scenery_flags" pascalStyleName="SceneryFlags" name="flags">
         <OptionsXRef>enum:scenery_flags</OptionsXRef>
       </WordFlags>
       <Explanation name="Lightmapping" description="Indicate whether, by default, how we should lightmap this type of scenery" />
@@ -53,7 +53,7 @@
           <Enum name="Pathfinding NONE" CStyleName="pathfinding_none" pascalStyleName="PathfindingNone" />
         </Options>
       </ShortEnum>
-      <WordFlags CStyleName="flags" pascalStyleName="Flags" name="flags">
+      <WordFlags CStyleName="scenery_flags" pascalStyleName="SceneryFlags" name="flags">
         <OptionsXRef>enum:scenery_flags</OptionsXRef>
       </WordFlags>
       <Explanation name="Lightmapping" description="Indicate whether, by default, how we should lightmap this type of scenery" />
